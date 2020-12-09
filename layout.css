@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.container{
+    display: grid;
+grid-template-columns:  1fr 5fr 50px 5fr;
+}
+
+
+.container > .left-bottom{
+ grid-column: 2/3;
+ margin-bottom: 100px;
+ 
+ 
+ 
+ 
+
+
+
+}
+
+.container > .left-bottom> h1{
+
+    font-size: 60px;
+    
+}
+
+.container > .left-bottom> p{
+
+    font-size: 20px;
+  
+
+}
+
+.container > .right-bottom {
+    grid-column: 4/5;
+    width: 85%;
+    margin-top: 60px;
+    
+   
+   
+   
+   }
+
+.container > .left-top {
+    grid-column: 1/2;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+   
+   
+   
+   }
+   .container > .right-top {
+    grid-column: 4/5;
+    margin-left: 200px;
+    margin-top: 20px;
+   
+   
+   
+   }
+
+
+
